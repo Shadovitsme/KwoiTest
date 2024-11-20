@@ -10,14 +10,17 @@ function Button(props) {
         className={
           "flex items-center gap-1 " +
           props.color +
-          " text-black py-2 px-4 " +
+          " text-white p-2 " +
           props.rounded +
           " hover:" +
           props.color +
           " transition duration-300 ease-in-out transform hover:scale-110"
         }
       >
-        <img className="w-6 h-6" src={props.icon}></img>
+        <img
+          className="w-5 h-5 stroke-white fill-white "
+          src={props.icon}
+        ></img>
         {props.content}
       </button>
     </div>
@@ -27,6 +30,5 @@ Button.defaultProps = {
   rounded: "rounded-md",
   scale: "scale-100",
   icon: trash,
-  color: "red",
 };
 export default Button;
