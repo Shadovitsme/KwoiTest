@@ -14,15 +14,11 @@ root.render(
           <App content="aaaaa" scale="scale-125" color="gray-800" />
           <App content="aaaaa" scale="scale-150" />
         </div>
-        <div>
-          <App content="aaaaa" />
-        </div>
       </div>
     </div>
   </React.StrictMode>
 );
 
-// TODO сделать скругленную и круглую кнопочку
 // TODO сделать иконки в кнопочках переменныыми
 // TODO сделать компонент-цикл который и будет выводить нужное количество строк с разными цветами кнопок коды цветов передавать как массив и скармливать таилвинду.
 
