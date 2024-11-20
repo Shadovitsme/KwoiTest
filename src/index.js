@@ -1,19 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Button from "./Button";
+import reportWebVitals from "./reportWebVitals";
+import String from "./string";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div className="flex justify-center items-center h-screen">
-      <div>
-        <div className="flex-rowcontainer flex align-items-center">
-          <App content="a" rounded="full" color="black" />
-          <App content="aaaaa" scale="scale-125" color="gray-800" />
-          <App content="aaaaa" scale="scale-150" />
-        </div>
+      <div className="grid col-span-1">
+        <String></String>
+        <String></String>
       </div>
     </div>
   </React.StrictMode>
