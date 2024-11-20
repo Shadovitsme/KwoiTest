@@ -17,10 +17,7 @@ function Button(props) {
           " transition duration-300 ease-in-out transform hover:scale-110"
         }
       >
-        <img
-          className="w-5 h-5 stroke-white fill-white "
-          src={props.icon}
-        ></img>
+        <img className="w-5 h-5 stroke-white fill-white" src={props.icon}></img>
         {props.content}
       </button>
     </div>

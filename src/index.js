@@ -18,9 +18,10 @@ const colorsSecond = ["bg-red-500", "bg-red-600", "bg-red-700", "bg-red-300"];
 
 root.render(
   <React.StrictMode>
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen w-full">
       <div>
         <ManyStrings colors={colorsFirst}></ManyStrings>
+        <div className="h-20"></div>
         <ManyStrings colors={colorsSecond}></ManyStrings>
       </div>
     </div>

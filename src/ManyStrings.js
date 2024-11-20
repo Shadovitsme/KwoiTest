@@ -3,7 +3,7 @@ import String from "./string";
 
 function ManyStrings(props) {
   return (
-    <div className="grid col-span-1 pb-20">
+    <div className="grid col-span-1">
       {props.colors.map((color, index) => (
         <String key={index} color={color}></String>
       ))}
