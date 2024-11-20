@@ -10,11 +10,12 @@ root.render(
     <div className="flex justify-center items-center h-screen">
       <div>
         <div className="flex-rowcontainer flex align-items-center">
-          <App content="a" rounded="full" />
-          <App content="aaaaa" rounded="md" scale="scale-150" />
+          <App content="a" rounded="full" color="black" />
+          <App content="aaaaa" scale="scale-125" color="gray-800" />
+          <App content="aaaaa" scale="scale-150" />
         </div>
         <div>
-          <App content="aaaaa" rounded="md" />
+          <App content="aaaaa" />
         </div>
       </div>
     </div>
