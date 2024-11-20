@@ -2,8 +2,14 @@ import "./App.css";
 
 function App(props) {
   return (
-    <div className="p-2.5">
-      <button className="flex items-center gap-1 bg-gray-800 text-white py-2 px-4 rounded-md hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-110">
+    <div className={"p-2.5 " + props.scale}>
+      <button
+        className={
+          "flex items-center gap-1 bg-gray-800 text-white py-2 px-4 rounded-" +
+          props.rounded +
+          " hover:bg-gray-700 transition duration-300 ease-in-out transform hover:scale-110"
+        }
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"

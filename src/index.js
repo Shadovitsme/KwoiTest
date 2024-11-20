@@ -10,18 +10,17 @@ root.render(
     <div className="flex justify-center items-center h-screen">
       <div>
         <div className="flex-rowcontainer flex align-items-center">
-          <App content="aaaaa" />
-          <App content="aaaaa" />
+          <App content="a" rounded="full" />
+          <App content="aaaaa" rounded="md" scale="scale-150" />
         </div>
         <div>
-          <App content="aaaaa" />
+          <App content="aaaaa" rounded="md" />
         </div>
       </div>
     </div>
   </React.StrictMode>
 );
-// TODO сделать большой див чтоб все кнопочки были в центре
-// TODO сделать дивы поменьше чтоб кнопочки в строку херачить
+
 // TODO сделать скругленную и круглую кнопочку
 // TODO сделать иконки в кнопочках переменныыми
 // TODO сделать компонент-цикл который и будет выводить нужное количество строк с разными цветами кнопок коды цветов передавать как массив и скармливать таилвинду.
