@@ -1,7 +1,7 @@
 import "./App.css";
-import String from "./string";
+import String from "./String";
 
-function ManyStrings(props) {
+function StringsBlock(props) {
   return (
     <div className="grid col-span-1">
       {props.colors.map((color, index) => (
@@ -10,4 +10,4 @@ function ManyStrings(props) {
     </div>
   );
 }
-export default ManyStrings;
+export default StringsBlock;
