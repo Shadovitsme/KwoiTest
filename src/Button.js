@@ -4,7 +4,7 @@ import trash from "./trash-blank-alt-svgrepo-com.svg";
 
 function Button(props) {
   return (
-    <div className={"p-2.5 " + props.scale}>
+    <div className={props.scale}>
       {/* TODO сделать чтоб интервал сохранялся при изменении масштаба */}
       <button
         className={
