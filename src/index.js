@@ -7,9 +7,24 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="flex justify-center items-center h-screen">
+      <div>
+        <div className="flex-rowcontainer flex align-items-center">
+          <App content="aaaaa" />
+          <App content="aaaaa" />
+        </div>
+        <div>
+          <App content="aaaaa" />
+        </div>
+      </div>
+    </div>
   </React.StrictMode>
 );
+// TODO сделать большой див чтоб все кнопочки были в центре
+// TODO сделать дивы поменьше чтоб кнопочки в строку херачить
+// TODO сделать скругленную и круглую кнопочку
+// TODO сделать иконки в кнопочках переменныыми
+// TODO сделать компонент-цикл который и будет выводить нужное количество строк с разными цветами кнопок коды цветов передавать как массив и скармливать таилвинду.
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
